@@ -1,0 +1,22 @@
+.slider-container{
+    margin: 0 auto;
+    width: 80%;
+    height:  auto;
+    background-color: lightsteelblue;
+    border: #000000 2px solid;
+    overflow-x: hidden;
+
+}
+.slider-container>ul{
+    display: inline-flex;
+    padding: 0%;
+}
+.slider-container>ul>li{
+    box-sizing: border-box;
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    border: 5px green solid;
+    background-color: yellow;
+    margin: 0 2rem 0 0 ;
+}
